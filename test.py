@@ -12,13 +12,14 @@ print('This program is meant to add two numbers together')
 nl() #prints a space between header and programs
 
 #Input Steps
+while exit != 'no':
+    num1 = int(input('Provide a number: '))
 
-num1 = int(input('Provide a number: '))
+    num2 = int(input('Provide a number: '))
 
-num2 = int(input('Provide a number: '))
+    results = num1 + num2
 
-results = num1 + num2
+    print(results)
 
-#Output Steps
-nl()
-print(results)
+    exit = input('would you like to run this program again? ')
+
